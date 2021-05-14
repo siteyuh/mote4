@@ -1,0 +1,14 @@
+header h1,
+header p.descri {
+  display: none;
+}
+
+.topframe, .post, .post-footer, aside.comment {
+  width: 90%;
+  margin: auto;
+}
+
+iframe.instagram-media {
+  height: 560px;
+  min-width: 280px!important;
+}

@@ -1,0 +1,8 @@
+header .logo {
+  width: 240px;
+}
+
+nav .menubtn {
+  width: 58px;
+  cursor: pointer;
+}

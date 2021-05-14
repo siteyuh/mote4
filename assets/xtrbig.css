@@ -1,0 +1,7 @@
+/* 
+12000pxの画面
+*/
+.allposts ul li {
+  width: calc(25% - 30px);
+}
+

@@ -1,0 +1,8 @@
+aside.menu {
+  width: 480px;
+  justify-content: space-between;
+}
+
+aside.menu div {
+  width: 30%;
+}

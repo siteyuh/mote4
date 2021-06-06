@@ -331,7 +331,7 @@ figure.wp-block-embed-youtube div iframe {
   height: 100% !important;
 }
 
-p > iframe {
+p > iframe, iframe.amazon {
   float: left;
   margin-right: 18px;
 }

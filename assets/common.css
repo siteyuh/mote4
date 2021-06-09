@@ -272,14 +272,14 @@ footer p {
   font-size: 14px;
 }
 
-.post a[target="_blank"] {
+.post a[target="_blank"], .top-item a[target="_blank"] {
   padding-right: 20px!important;
   background-image: url(extlink.svg);
   background-repeat: no-repeat;
   background-position: center right 4px;
 }
 
-.post a:not(.paging) {
+.post a:not(.paging), .top-item a[target="_blank"] {
   padding: 4px;
   border-bottom: #C7B299 1px solid;
   color: #C7B299;

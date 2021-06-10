@@ -256,7 +256,7 @@ footer p {
   line-height: 1.25em;
 }
 
-.post p::after {
+.post p::after, .post ul::after {
   clear: both;/*フロートを解除する3行*/
   content: '';
   display: flow-root;

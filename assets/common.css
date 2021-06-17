@@ -88,7 +88,7 @@ header nav .menubtn {
 /* メニュー画面 */
 aside.menu {
   display: none;
-  /* height: 90vh; */
+  max-height: 70vh;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   background: rgba(56, 49, 46, 0.548);
@@ -100,6 +100,7 @@ aside.menu {
   max-width: 290px;
   z-index:1000;
   padding: 1rem 2rem 2rem;
+  overflow-y: scroll;
 }
 
 .menu .title {

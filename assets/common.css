@@ -91,7 +91,7 @@ aside.menu {
   max-height: 70vh;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  background: rgba(56, 49, 46, 0.548);
+  background: rgba(111, 108, 106, 0.55);
   /* background: #38322ff2; */
   position: fixed;
   top: 45px;

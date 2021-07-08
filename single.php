@@ -27,7 +27,7 @@ echo '</section>';
   <h3>コメント</h3>
   <p>
     コメントするにはTwitterにアカウントが必要です。<br>
-    <a class="tweet-button" href="https://twitter.com/share?url=<?=get_the_permalink()?>&text=@siteyuh" rel="nofollow" target="_blank">Twitterでコメントする</a>
+    <a class="tweet-button" href="https://twitter.com/share?url=<?=get_the_permalink()?>&text=@siteyuh04" rel="nofollow" target="_blank">Twitterでコメントする</a>
   </p>
 </aside>
 <?php

@@ -31,6 +31,8 @@
     font-size: 16px;
     width: 99%;
     outline: none;
+    padding: 5px;
+    margin: 5px 0px;
   }
   input[type="submit"], input[type=button] {
     appearance: none;
@@ -41,6 +43,10 @@
     border: 1px solid #000;
     background: #fff;
     font-size: 16px;
+  }
+  .tips {
+    display: block;
+    padding: 0 0 5px 0;
   }
   textarea.confirm {
     border: none;
@@ -81,7 +87,7 @@
     </form>
 <?php } else { ?>
     <form action="<?=$_SERVER['PHP_SELF']?>" method="post">
-      <input type="date" name="date">
+      <input type="date" name="date"><span class="tips">クリックして日付を入力</span>
       <input type="number" name="weight" step="0.1" placeholder="weight">
       <input type="number" name="fat" step="0.1" placeholder="fat">
       <input type="hidden" name="act" value="confirm"><input type="submit" value="確認">

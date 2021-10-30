@@ -13,6 +13,10 @@
 /*    border-bottom: 1px solid gray;*/
     z-index: 999;
   }
+  input {
+    color: #000;
+    width: 100%;
+  }
   #archives {
 /*    position: absolute;*/
 /*    top: 320px;*/

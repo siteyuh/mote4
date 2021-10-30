@@ -28,7 +28,7 @@ echo '<thead><tr><th>日時</th><th>体重</th><th>体脂肪率</th></tr></thead
 echo '<tbody>'.PHP_EOL;
 $result = file('https://motebody.siteyuh.com/inc/bodydata.csv');
 $result = array_reverse($result);
-for ( $i = 1; $i < sizeof( $result ); $i++ ) {
+for ( $i = 0; $i < sizeof( $result ); $i++ ) {
   list($date, $weight, $bodyfat) = explode( ",", $result[ $i ] );
   echo '<tr><td>'.str_replace('-', '.', $date).'</td><td>'.$weight.'&nbsp;kg</td><td>'.substr($bodyfat, 0, -1).'&#37;</td></tr>'.PHP_EOL;
 }

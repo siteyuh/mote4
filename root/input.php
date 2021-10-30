@@ -31,16 +31,19 @@
     font-size: 16px;
     width: 99%;
     outline: none;
-    padding: 5px;
+    padding: 10px;
     margin: 5px 0px;
+    color: #000;
   }
   input[type="submit"], input[type=button] {
+    box-sizing: border-box;
     appearance: none;
     display: block;
     width: 200px;
     padding: 10px;
     margin-top: 10px;
     border: 1px solid #000;
+    border-radius: 5px; 
     background: #fff;
     font-size: 16px;
   }

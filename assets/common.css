@@ -288,7 +288,7 @@ footer p {
 
 figcaption {
   font-size: 12px;
-  margin-top: -0.5rem!important;
+  /* margin-top: -0.5rem!important; */
   text-align: center;
 }
 

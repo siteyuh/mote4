@@ -4,7 +4,7 @@
           <li><a href="https://instagram.com/siteyuh03/" target="_blank"><img src="/assets/instagram.svg" alt="yuhのインスタ"></a></li>
           <li><a href="https://twitter.com/siteyuh" target="_blank"><img src="/assets/twitter.svg" alt="yuhのツイッター"></a></li>
         </ul>
-        <p>copyright 2021 yuh All Rights Reserved.</p>
+        <p>copyright 2022 yuh All Rights Reserved.</p>
       </footer>
     </div>
     <aside id="toggle_menu" class="menu">
